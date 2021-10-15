@@ -40,7 +40,7 @@ int main() {
   auto product = tensor1 * tensor1;
   std::cout << product << std::endl;
   
-  
+  std::cout << torch::ones({2, 4})<< std::endl;
   
   return 0;
 }
